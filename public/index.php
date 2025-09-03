@@ -93,6 +93,8 @@
 
                     if (str_ends_with($currentURL, "/")) {
                         include('./pages/dashboard.php');
+                    } elseif (str_ends_with($currentURL, "/users.php")) {
+                        include('./pages/users.php');
                     }
                 ?>
             </main>
